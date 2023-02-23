@@ -45,7 +45,7 @@ const LoginForm = () => {
         <OtpForm phone={mobile} handleOtp={() => setshowOtp(false)} />
       ) : (
         <Formik
-          initialValues={{ phone: "+923324455796" }}
+          initialValues={{ phone: "+92" }}
           validationSchema={loginValidationSchema}
           onSubmit={(values, { setSubmitting }) => {
             handleSubmit(values, setSubmitting);
