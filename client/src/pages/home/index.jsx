@@ -31,7 +31,9 @@ const Home = () => {
   }, []);
 
   const filterProducts = async (id) => {
-    console.log("🚀 ~ file: index.jsx:34 ~ filterProducts ~ id", id);
+   // console.log("🚀 ~ file: index.jsx:34 ~ filterProducts ~ id", id);
+     setLoading(true);
+    
     await getProductsByCat({
       id,
       cbSuccess: ({ status, message, data }) => {
