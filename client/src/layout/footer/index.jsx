@@ -7,7 +7,7 @@ const AppFooter = () => {
         <div className="grid w-full  justify-between sm:flex sm:justify-between md:flex md:grid-cols-1 ">
           <div>
             <img
-              src="https://www.cheezious.com/_next/image?url=https%3A%2F%2Fem-cdn.eatmubarak.pk%2F54946%2Flogo%2F1649325481.png&w=256&q=90"
+              src="https://cheezious.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2FmainLogo.c4a33b22.png&w=640&q=75"
               className="mr-3 w-[140px] rounded"
               alt="Flowbite Logo"
             />
