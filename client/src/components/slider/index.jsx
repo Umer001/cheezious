@@ -5,16 +5,15 @@ const Slider = () => {
     <div className="h-[120px] sm:h-64 xl:h-80 2xl:h-[455px] rounded ">
       <Carousel indicators={false}>
         <img
-          src="https://www.cheezious.com/_next/image?url=https%3A%2F%2Fem-cdn.eatmubarak.pk%2F54946%2Fweb_splash%2F1672926557.jpeg&w=1920&q=90"
+          src="https://cheezious.com/_next/image?url=http%3A%2F%2Fs3-me-south-1.amazonaws.com%2Fcz-content-prod%2Fbanners%2Fwebsite%2F1725625699609-Cheezious%20New%20Web%20Banner%2003.jpg&w=1920&q=75"
           alt="..."
         />
         <img
-          src="https://www.cheezious.com/_next/image?url=https%3A%2F%2Fem-cdn.eatmubarak.pk%2F54946%2Fweb_splash%2F1653935620.png&w=1920&q=90"
+          src="https://cheezious.com/_next/image?url=http%3A%2F%2Fs3-me-south-1.amazonaws.com%2Fcz-content-prod%2Fbanners%2Fwebsite%2F1725625656600-Cheezious%20New%20Web%20Banner%2001.jpg&w=1920&q=75"
           alt="..."
         />
         <img
-          src="https://www.cheezious.com/_next/image?url=https%3A%2F%2Fem-cdn.eatmubarak.pk%2F54946%2Fweb_splash%2F1675172747.jpg&w=1920&q=90
-        "
+          src="https://cheezious.com/_next/image?url=http%3A%2F%2Fs3-me-south-1.amazonaws.com%2Fcz-content-prod%2Fbanners%2Fwebsite%2F1725625729436-Cheezious%20New%20Web%20Banner%2002.jpg&w=1920&q=75"
           alt="..."
         />
       </Carousel>
