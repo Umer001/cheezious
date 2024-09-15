@@ -43,7 +43,7 @@ const AppNavbar = () => {
       <Navbar fluid={true} rounded={true} className="bg-[#FFCB04] py-4">
         <Link to="/" className="flex items-center">
           <img
-            src="https://www.cheezious.com/_next/image?url=https%3A%2F%2Fem-cdn.eatmubarak.pk%2F54946%2Flogo%2F1649325481.png&w=1920&q=90"
+            src="https://cheezious.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2FmainLogo.c4a33b22.png&w=640&q=75"
             className="mr-3 h-6 sm:h-9"
             alt="Cheezious Logo"
           />
