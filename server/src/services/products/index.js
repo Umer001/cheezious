@@ -6,8 +6,7 @@ const products = [
     description:
       "Freshly Baked Bread Filled with the Yummiest Cheese Blend to Satisfy your Cravings.      ",
     category_id: 1,
-    image:
-      "https://www.cheezious.com/_next/image?url=https%3A%2F%2Fem-cdn.eatmubarak.pk%2Frestaurant_new%2F%2F%2Fdish%2F16027793711771744869.jpg&w=256&q=90",
+    image:"https://cheezious.com/_next/image?url=http%3A%2F%2Fs3-me-south-1.amazonaws.com%2Fcz-content-prod%2Fproducts%2F1725269794825-Cheezy%20Sticks.jpg&w=1920&q=75",
   },
   {
     id: 2,
@@ -16,7 +15,7 @@ const products = [
     description: "Fresh Oven Baked Wings Served With Dip Sauce",
     category_id: 1,
     image:
-      "https://www.cheezious.com/_next/image?url=https%3A%2F%2Fem-cdn.eatmubarak.pk%2Frestaurant_new%2F%2F%2Fdish%2F1602778646768992842.jpg&w=384&q=90",
+      "https://cheezious.com/_next/image?url=http%3A%2F%2Fs3-me-south-1.amazonaws.com%2Fcz-content-prod%2Fproducts%2F1725269753904-Oven%20Baked%20Wings.jpg&w=1920&q=75",
   },
   {
     id: 3,
@@ -26,7 +25,7 @@ const products = [
       "Fresh Oven Baked Wings Tossed In Hot Peri Peri Sauce and Served With Dip Sauce",
     category_id: 1,
     image:
-      "https://www.cheezious.com/_next/image?url=https%3A%2F%2Fem-cdn.eatmubarak.pk%2Frestaurant_new%2F54946%2F54946%2Fdish%2F1612872495497065653.png&w=1080&q=90",
+      "https://cheezious.com/_next/image?url=http%3A%2F%2Fs3-me-south-1.amazonaws.com%2Fcz-content-prod%2Fproducts%2F1725269662339-Flaming%20Wings.jpg&w=1920&q=75",
   },
   {
     id: 4,
@@ -35,7 +34,7 @@ const products = [
     description: "4 Pcs Stuffed Calzone Chunks Served with Sauce & Fries",
     category_id: 1,
     image:
-      "https://www.cheezious.com/_next/image?url=https%3A%2F%2Fem-cdn.eatmubarak.pk%2Frestaurant_new%2F54946%2F54946%2Fdish%2F1612872495497065653.png&w=1080&q=90",
+      "https://cheezious.com/_next/image?url=http%3A%2F%2Fs3-me-south-1.amazonaws.com%2Fcz-content-prod%2Fproducts%2F1725269461437-Calzone%20Chunks.jpg&w=1920&q=75",
   },
   {
     id: 5,
@@ -45,7 +44,7 @@ const products = [
       "4 Pcs Arabic Rolls Stuffed with Yummiest Mix Served with Sauce",
     category_id: 1,
     image:
-      "https://www.cheezious.com/_next/image?url=https%3A%2F%2Fem-cdn.eatmubarak.pk%2F54946%2Fdish_image%2F1628885324.png&w=1920&q=90",
+      "https://cheezious.com/_next/image?url=http%3A%2F%2Fs3-me-south-1.amazonaws.com%2Fcz-content-prod%2Fproducts%2F1725269423161-Arabic%20Rolls.jpg&w=1920&q=75",
   },
   {
     id: 6,
@@ -55,7 +54,7 @@ const products = [
       "4 Pcs Behari Rolls Stuffed with Yummiest Mix Served with Sauce ",
     category_id: 1,
     image:
-      "https://www.cheezious.com/_next/image?url=https%3A%2F%2Fem-cdn.eatmubarak.pk%2F54946%2Fdish_image%2F1628885324.png&w=1920&q=90",
+      "https://cheezious.com/_next/image?url=http%3A%2F%2Fs3-me-south-1.amazonaws.com%2Fcz-content-prod%2Fproducts%2F1725269388240-Behari%20Rolls.jpg&w=1920&q=75",
   },
   {
     id: 7,
@@ -65,7 +64,7 @@ const products = [
       "Tender Chunks of Marinated Grilled Chicken with Savory Onion ",
     category_id: 2,
     image:
-      "https://cheezious.com/_next/image?url=https%3A%2F%2Fem-cdn.eatmubarak.pk%2Frestaurant_new%2F54946%2F54946%2Fdish%2F16129593211519226473.jpg&w=1920&q=90",
+      "https://cheezious.com/_next/image?url=http%3A%2F%2Fs3-me-south-1.amazonaws.com%2Fcz-content-prod%2Fproducts%2F1725269484029-Sausage%20Pizza.jpg&w=1920&q=75",
   },
   {
     id: 8,
@@ -75,7 +74,7 @@ const products = [
       "An Authentic Taste of Fajita Marinated Chicken Onion and Bell Peppers. ",
     category_id: 2,
     image:
-      "https://cheezious.com/_next/image?url=https%3A%2F%2Fem-cdn.eatmubarak.pk%2Frestaurant_new%2F54946%2F54946%2Fdish%2F16129588831247331510.jpg&w=1920&q=90",
+      "https://cheezious.com/_next/image?url=http%3A%2F%2Fs3-me-south-1.amazonaws.com%2Fcz-content-prod%2Fproducts%2F1725270011643-Chicken%20Fajita.jpg&w=1920&q=75",
   },
   {
     id: 9,
@@ -85,7 +84,7 @@ const products = [
       "Extreme Quantity of Chicken and Onion with Rich Mozzarella Cheese",
     category_id: 2,
     image:
-      "https://cheezious.com/_next/image?url=https%3A%2F%2Fem-cdn.eatmubarak.pk%2Frestaurant_new%2F%2F%2Fdish%2F16027813671864187338.jpg&w=1920&q=90",
+      "https://cheezious.com/_next/image?url=http%3A%2F%2Fs3-me-south-1.amazonaws.com%2Fcz-content-prod%2Fproducts%2F1725269994656-Chicken%20Lover.jpg&w=1920&q=75",
   },
   {
     id: 10,
@@ -95,7 +94,7 @@ const products = [
       "Our Traditionally Developed Tandoori Chicken with Onion, Olives, Jalapeno and Tomato Sauce",
     category_id: 2,
     image:
-      "https://cheezious.com/_next/image?url=https%3A%2F%2Fem-cdn.eatmubarak.pk%2F54946%2Fdish_image%2F1629376979.jpg&w=1920&q=90",
+      "https://cheezious.com/_next/image?url=http%3A%2F%2Fs3-me-south-1.amazonaws.com%2Fcz-content-prod%2Fproducts%2F1725269980123-Chicken%20Tandoori.jpg&w=1920&q=75",
   },
   {
     id: 11,
@@ -104,7 +103,7 @@ const products = [
     description: "4 Pcs Behari Rolls, 6pcs Wings Served with Fries & Sauce",
     category_id: 1,
     image:
-      "https://cheezious.com/_next/image?url=https%3A%2F%2Fem-cdn.eatmubarak.pk%2F54946%2Fdish_image%2F1628885597.jpg&w=1920&q=90",
+      "https://cheezious.com/_next/image?url=http%3A%2F%2Fs3-me-south-1.amazonaws.com%2Fcz-content-prod%2Fproducts%2F1725269682694-Special%20Roasted%20Platter.jpg&w=1920&q=75",
   },
   {
     id: 12,
@@ -114,7 +113,7 @@ const products = [
       "Mozzarella Dipped Chicken Topped with Garlic Sauce, Tomato’s Served in Baked Bread.",
     category_id: 3,
     image:
-      "https://cheezious.com/_next/image?url=https%3A%2F%2Fem-cdn.eatmubarak.pk%2F54946%2Fdish_image%2F1632305191.jpg&w=1920&q=90",
+      "https://cheezious.com/_next/image?url=http%3A%2F%2Fs3-me-south-1.amazonaws.com%2Fcz-content-prod%2Fproducts%2F1725269630450-Mexican%20Sandwich.jpg&w=1920&q=75",
   },
   {
     id: 13,
@@ -124,7 +123,7 @@ const products = [
       "A Unique Blend of Delicious Sauce, Crispy Chicken and Pizza Crust.",
     category_id: 3,
     image:
-      "https://cheezious.com/_next/image?url=https%3A%2F%2Fem-cdn.eatmubarak.pk%2Frestaurant_new%2F%2F%2Fdish%2F16027847051721315201.jpg&w=1920&q=90",
+      "https://cheezious.com/_next/image?url=http%3A%2F%2Fs3-me-south-1.amazonaws.com%2Fcz-content-prod%2Fproducts%2F1725269598878-Pizza%20Stacker.jpg&w=1920&q=75",
   },
   {
     id: 14,
@@ -134,7 +133,7 @@ const products = [
       "Mozzarella Dipped Black Pepper Chicken Topped with Garlic Sauce, Pineapples and Tomato’s Served in Baked Bread.",
     category_id: 3,
     image:
-      "https://cheezious.com/_next/image?url=https%3A%2F%2Fem-cdn.eatmubarak.pk%2F54946%2Fdish_image%2F1632305153.jpg&w=1920&q=90",
+      "https://cheezious.com/_next/image?url=http%3A%2F%2Fs3-me-south-1.amazonaws.com%2Fcz-content-prod%2Fproducts%2F1725269366179-Euro%20Sandwich.jpg&w=1920&q=75",
   },
   {
     id: 15,
@@ -143,7 +142,7 @@ const products = [
     description: "Pepsi 250ml",
     category_id: 4,
     image:
-      "https://cheezious.com/_next/image?url=https%3A%2F%2Fem-cdn.eatmubarak.pk%2F54946%2Fdish_image%2F1628890050.jpg&w=1920&q=90",
+      "https://cheezious.com/_next/image?url=http%3A%2F%2Fs3-me-south-1.amazonaws.com%2Fcz-content-prod%2Fproducts%2F1725269131205-Cold%20Drink.jpg&w=1920&q=75",
   },
   {
     id: 16,
@@ -152,7 +151,7 @@ const products = [
     description: "Fresh Mango juice",
     category_id: 4,
     image:
-      "https://cheezious.com/_next/image?url=https%3A%2F%2Fem-cdn.eatmubarak.pk%2F54946%2Fdish_image%2F1628885996.jpg&w=1920&q=90",
+      "https://cheezious.com/_next/image?url=http%3A%2F%2Fs3-me-south-1.amazonaws.com%2Fcz-content-prod%2Fproducts%2F1724239077818-Juice.jpg&w=1920&q=75",
   },
 ];
 const getProducts = async (req, res) => {
